@@ -1158,11 +1158,7 @@ function createHintText() {
   hintText.position.set(0, 15, 0);
   scene.add(hintText);
 }
-  const planeGeometry = new THREE.PlaneGeometry(16, 8);
-  hintText = new THREE.Mesh(planeGeometry, textMaterial);
-  hintText.position.set(0, 15, 0);
-  scene.add(hintText);
-}
+
 
 // ---- CÁC HÀM XỬ LÝ SỰ KIỆN VÀ KHỞI ĐỘNG ----
 
