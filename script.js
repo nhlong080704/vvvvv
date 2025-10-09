@@ -604,10 +604,10 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  "💖 💖 💖 💖 💖 💖",
-  "💝💝💝💝💝💝💝💝",
-  "💘💘💘💘💘💘💘💘",
-  "😘😘😘😘😘😘😘😘",
+  "💖 ",
+  "💝 ",
+  "💘 ",
+  "😘 ",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
