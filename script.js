@@ -91,7 +91,8 @@ const defaultHeartImages = [
   'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img4.png',
   'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img5.png',
   'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img6.png',
-  'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img7.png'
+  'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img7.png',
+  'https://raw.githubusercontent.com/nhlong080704/vvvvv/main/images/img8.png'
 ];
 const heartImages = [
   ...(window.dataCCD?.data?.heartImages || []),
